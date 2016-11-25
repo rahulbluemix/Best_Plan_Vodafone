@@ -1,0 +1,11 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Best_Plan_Vodafone
+  host: BestPlanVodafone
+  disk_quota: 1024M
+  services:
+  - Best_Plan_Vodafone_DB
+  - availability-monitoring-auto
