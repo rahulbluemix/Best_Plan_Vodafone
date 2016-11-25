@@ -1,3 +1,4 @@
+/*globals xhrGet */
 // index.js
 
 var REST_DATA = 'api/favorites';
