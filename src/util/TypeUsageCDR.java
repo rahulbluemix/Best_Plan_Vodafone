@@ -138,17 +138,7 @@ public class TypeUsageCDR {
 								current_total_consumption = Math.round(fixed_charge_amt) + add_fixed_amt + add_unit_rate*totalconsumedUnit;
 								
 								
-								/*JOptionPane.showMessageDialog(frame, "Subscriber Number: " + subscriber_no + "\n" +
-								"Frequent Call Type: " + description_text + "\n" + 
-								"Total units Consumed: " + totalconsumedUnit + "Seconds" + "\n" +
-								"Current Price Plan: " + description_element_txt + "\n" +
-								"Bill amount of" + description_text + " on current price plan: " + current_total_consumption + " €"); 
-								*/
-								//bestPlanValue.add("\nSubscriber Number:  "  + subscriber_no);
-								//bestPlanValue.add("\nFrequent Call Type: "  + description_text);
-								//bestPlanValue.add("\nTotal units Consumed: "  + totalconsumedUnit);
-								//bestPlanValue.add("\nCurrent Price Plan: "  + description_element_txt);
-								//bestPlanValue.add("\nBill amount of " + description_text + " on current price plan: " + current_total_consumption);
+								
 								bestPlanValue.add(subscriber_no);
 								bestPlanValue.add(description_text);
 								bestPlanValue.add(totalconsumedUnit + " Seconds");
@@ -189,13 +179,13 @@ public class TypeUsageCDR {
 						"Frequent Call Type: " + description_text + "\n" + 
 						"Total units Consumed: " + totalconsumedUnit + "Seconds" + "\n" +
 						"Proposed Price Plan: " + rs.getString("description_text")+ "\n" +
-						"Bill amount of" + description_text + " on Proposed price plan: " + new_proposed_con + " €");*/
+						"Bill amount of" + description_text + " on Proposed price plan: " + new_proposed_con + " ï¿½");*/
 				
 				//bestPlanValue.add("\nSubscriber Number:  "  + subscriber_no);
 				//bestPlanValue.add("\nFrequent Call Type: "  + description_text);
 				//bestPlanValue.add("\nTotal units Consumed: "  + totalconsumedUnit);
 				//bestPlanValue.add("\nProposed Price Plan: "  + rs.getString("description_text"));
-				//bestPlanValue.add("\nBill amount of " + description_text + " on Proposed price plan: " + new_proposed_con +" €");
+				//bestPlanValue.add("\nBill amount of " + description_text + " on Proposed price plan: " + new_proposed_con +" ï¿½");
 				bestPlanValue.add(rs.getString("description_text"));
 				bestPlanValue.add(new_proposed_con +" Euro");
 			
