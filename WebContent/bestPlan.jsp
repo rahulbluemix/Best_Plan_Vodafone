@@ -40,7 +40,7 @@
 <body style="background-color: White;">
 <div id ="header">
 	<div id ="image">
-		<img src="Images/vf-logomobile.png" alt="Best Plan Invoice" style = "height = 90px;">
+		<img src="images/vf-logomobile.png" alt="Best Plan Invoice" style = "height = 90px;">
 	</div>
 	<div id="language">
 	<p style="padding-top: 30px;"></p>
@@ -91,7 +91,7 @@
 <div id="footer">
 	<fieldset>
 	<legend>Disclaimer:</legend>
-	Copyright © Best Plan On Invoice
+	Copyright ï¿½ Best Plan On Invoice
 	</fieldset>
 </div>
 </div>
